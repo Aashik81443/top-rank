@@ -1,0 +1,29 @@
+.services {
+    background-color: #1F2B48;
+    color: white;
+margin-top: 20px;
+    text-align: center;
+}
+serviceprovider h2{
+    padding: 80px;
+}
+.image-grid{
+    display: grid;
+    gap: 20px;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-items{
+  text-align: left;
+padding: 40px;
+}
+.image-items p{
+   margin-top: 10px;
+   font-size: 16px;
+}
+.image-items img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
