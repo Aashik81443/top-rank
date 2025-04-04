@@ -1,0 +1,92 @@
+.servicee{
+    padding: 50px 10px;
+    background-color:#344b82 ;
+}
+.container .contents {
+color: white;
+text-align: center;
+padding-top: 5px;
+margin-top: 5px;
+line-height: 1.667 ;
+max-width: 880px;
+}
+.container .contents h2{
+    color: white;
+}
+.container .contents p{
+    position: relative;
+    top: -5px;
+}
+
+.container .contents .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -28px;
+    margin-right: -28px;
+    
+}
+.container .contents .row .col{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    justify-content: center;
+    line-height:1.56 ;
+    z-index: 2;
+    padding-left: 28px;
+   padding-right: 28px;
+}
+.container .contents .row .col h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+}
+.container .contents .row .col p{
+    text-align: left;
+    position: relative;
+    line-height:1.5 ;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 100%;
+}
+.container .contents .row .col figure{
+  margin-bottom: 40px;
+  position: relative;
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.row .col img{
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+   
+}
+.container .contents .row .col figure::before{
+  content: '';
+  position: absolute;
+  width: 179px;
+  height: 122px;
+  background-color:black;
+  top:0px;
+  left: 0px;
+  border-radius: 8px;
+  z-index:-1;
+}
+
+.container .contents .row .col figure::after{
+    content: '';
+    position: absolute;
+    width: 179px;
+    height: 122px;
+    background-color: #4E6DB8;
+    border-radius: 8px;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    z-index: -1;
+}
