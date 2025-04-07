@@ -1,10 +1,9 @@
-<div class="check">
-    <ul class="checkmark"> 
-         <li> <i class="icon-tick"></i>Foundation Repair</li>
-         <li><i class="icon-tick"></i>Chimney Repair</li>
-         <li><i class="icon-tick"></i>Basement Waterproofing</li>
-         <li><i class="icon-tick"></i>Stoops and Steps</li>
-         <li><i class="icon-tick"></i>Pations</li>
-         <li><i class="icon-tick"></i>Walkways</li>
-    </ul>
+<div class="list-check">
+ <ul>
+  <li>Foundation Repair</li>
+  <li>Foundation Repair</li>
+  <li>Foundation Repair</li>
+  <li>Foundation Repair</li>
+  <li>Foundation Repair Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolor!</li>
+ </ul>
 </div>
