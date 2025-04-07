@@ -1,3 +1,23 @@
-.list-check ul li{
- 
+.checkmark li{
+    font-size:1.25rem;
+    line-height: 1.6;
+    color:--blue-900;
 }
+
+ul{
+    list-style: none;
+}
+
+.icon-tick{
+padding-right:12px;
+color:--blue;
+}
+
+.checkmark{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap:56px;
+    row-gap:9px;
+    padding-bottom: 48px;
+}
+
