@@ -17,6 +17,7 @@ hr {
 
 /*typography*/
 
+/*For h1 */
 h1,
 .h1 {
  font-size: 44px;
@@ -42,5 +43,61 @@ h1,
  h1,
  .h1 {
   font-size: 56px;
+ }
+}
+
+h2,
+.h2 {
+ font-size: 28px;
+ line-height: 1.2;
+}
+
+/*For Tab Device*/
+@media screen and (min-width: 768px) {
+
+ h2,
+ .h2 {
+  font-size: 32px;
+ }
+}
+
+/*For laptop Device*/
+
+@media screen and (min-width: 1024px) {
+ body {
+  font-size: 18px;
+ }
+
+ h2,
+ .h2 {
+  font-size: 40px;
+ }
+}
+
+h3,
+.h3 {
+ font-size: 10px;
+ line-height: 1.2;
+}
+
+/*For Tab Device*/
+@media screen and (min-width: 768px) {
+
+ h3,
+ .h3 {
+  font-size: 12px;
+ }
+}
+
+/*For laptop Device*/
+
+@media screen and (min-width: 1024px) {
+ body {
+  font-size: 18px;
+ }
+
+ h3,
+ .h3 {
+  font-size: 16px;
  }
 }
