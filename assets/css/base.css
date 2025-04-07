@@ -1,0 +1,46 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+
+body {
+ font-family: var(--font-raleway);
+ font-size: 16px;
+ line-height: 1.5;
+}
+
+hr {
+ margin: 1rem 0;
+}
+
+/*typography*/
+
+h1,
+.h1 {
+ font-size: 44px;
+ line-height: 1.3;
+}
+
+/*For Tab Device*/
+@media screen and (min-width: 768px) {
+
+ h1,
+ .h1 {
+  font-size: 48px;
+ }
+}
+
+/*For laptop Device*/
+
+@media screen and (min-width: 1024px) {
+ body {
+  font-size: 18px;
+ }
+
+ h1,
+ .h1 {
+  font-size: 56px;
+ }
+}

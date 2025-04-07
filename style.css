@@ -1,11 +1,16 @@
-@import "./assets/css/global.css";
-@import "./assets/css/header.css";
-@import "./assets/css/footer.css";
-@import "./assets/css/our_services.css";
-@import "./assets/css/aboutus.css" ;
-@import "./assets/css/serve.css" ;
-@import "./assets/css/setup.css" ;
-@import "./assets/css/getin_touch.css" ;
+@import'./assets/css/fonts.css';
+@import'./assets/css/variables.css';
+@import'./assets/css/base.css';
 
 
+/*Components*/
+@import'./assets/css/components/block-title.css';
+@import'./assets/css/components/button.css';
+@import'./assets/css/components/card-service.css';
+@import'./assets/css/components/list-check.css';
+@import'./assets/css/components/media-offset.css';
 
+
+/*Modules*/
+@import'./assets/css/module/header.css';
+@import'./assets/css/module/footer.css';
