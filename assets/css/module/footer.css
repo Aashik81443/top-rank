@@ -1,13 +1,19 @@
-.footer{
+.footer {
     background-color: var(--blue);
     position: relative;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    width: auto;
 }
 
-.footer-section h3::before{
-    position: absolute;
-    font-family: 'icomoon';
-    content: "\e901";
+.footer-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-section a {
     color: var(--white);
+}
+
+.footer-section .icon-call-alt{
+    padding-right: 4px;
 }
