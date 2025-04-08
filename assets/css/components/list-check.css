@@ -2,7 +2,7 @@
 .list-check ul li {
  position: relative;
  list-style-type: none;
- padding-left: 30px;
+ padding-left: 1.875rem;
 }
 
 .list-check ul li::before {
@@ -11,6 +11,6 @@
  content: '\e902';
  top: 0;
  left: 0;
- font-size: 17px;
+ font-size: 1.0625rem;
  color: var(--blue);
 }
