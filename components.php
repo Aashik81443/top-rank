@@ -1,7 +1,5 @@
 
-<?php
-include './header.php';
-?>
+
 
  <?php
  include './components/media-offset.php';
@@ -11,6 +9,3 @@ include './header.php';
  include './components/list-check.php';
  ?>
 
-<?php
-include './footer.php';
-?>

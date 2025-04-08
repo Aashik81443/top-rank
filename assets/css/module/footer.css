@@ -1,0 +1,13 @@
+.footer{
+    background-color: var(--blue);
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.footer-section h3::before{
+    position: absolute;
+    font-family: 'icomoon';
+    content: "\e901";
+    color: var(--white);
+}
