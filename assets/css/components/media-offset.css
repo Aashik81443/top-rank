@@ -1,4 +1,4 @@
-
+/* 
 
 .media-offset .container {
     display: flex;
@@ -14,7 +14,7 @@
   }
   
   .media-offset .container img {
-    display: block; /* removes extra bottom spacing */
+    display: block;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -43,4 +43,38 @@
     bottom: -16.78px;
     right: -16.87px;
   }
-  
+   */
+
+
+.media-offset {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+}
+
+.media-offset img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.media-offset::after,
+.media-offset::before {
+  position: absolute;
+  content: '';
+  width: 286px;
+  height: 196px;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.media-offset::before {
+  top: 0;
+  left: 0;
+  background-color: var(--black);
+}
+.media-offset::after {
+  right: 0;
+  bottom: 0;
+  background-color: var(--blue);
+}
+

@@ -1,22 +1,45 @@
-.btn{
-    display:inline-block;
-    border:none;
-    font-size: 1.375rem;
-    background-color: var(--blue);
-    border-radius: 0.25rem;
-    text-decoration: none;
-    border:none;
-    color:white; 
-    text-align: center;
-    padding:1rem 2rem;
-    font-weight: 600;
-  }
+/*Button Default*/
+.btn {
+ display: inline-block;
+ border: 1px solid transparent;
+ font-size: 1.25rem;
+ line-height: 1.09;
+ background-color: var(--black);
+ color: var(--white);
+ border-radius: 0.25rem;
+ text-decoration: none;
+ text-align: center;
+ padding: 0.9375rem 1.5rem;
+ font-weight: 600;
+ transition: all 0.3s;
+}
 
-  .btn-primary{
-    padding:1rem 13.5313rem;
-  }
+.btn:hover {
+ background-color: var(--white);
+ color: var(--black);
+ border-color: var(--black);
+}
 
-  .btn-second{
-    font-size:16px;
-    padding:1.0625rem 9.8438rem;
-  }
+/*Button Primary*/
+.btn-primary {
+ background-color: var(--blue);
+}
+
+.btn-primary:hover {
+ background-color: var(--white);
+ color: var(--blue);
+ border-color: var(--blue);
+}
+
+
+
+/*Responsive*/
+
+/*For laptop Device*/
+@media screen and (min-width: 1024px) {
+ .btn {
+  font-size: 1.375rem;
+  padding: 17px 2rem;
+
+ }
+}
