@@ -1,0 +1,7 @@
+.card-service .content{
+    margin-top: 20px;
+    color: var(--white);
+}
+.card-service .content h3{
+    margin-bottom: 8px;
+}
