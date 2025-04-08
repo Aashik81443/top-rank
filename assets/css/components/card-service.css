@@ -1,0 +1,54 @@
+.card-service .container{
+    padding-top: 210px;
+    padding-left: 280px;
+    padding-bottom: 40px;
+    margin: 30px;
+    width:auto;
+}
+
+.card-service .container figure{
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+.card-service .container img{
+    display: block; /* removes extra bottom spacing */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-service .container figure::before,
+.card-service .container figure::after{
+    content: '';
+    position: absolute;
+    border-radius: 8px;
+    z-index: -1;
+    width: 179px;
+    height: 113.226px;
+}
+
+.card-service .container figure::before{
+    background-color: var(--black);
+    top: -11.14px;
+    left: -12px;
+}
+
+.card-service .container figure::after{
+    background-color: var(--blue);
+    bottom: -11.14px;
+    right: -12px;
+}
+.card-text{
+    padding-top: 20px;
+    width: 411.5px;
+   /* color: var(--white);*/
+}
+
+.card-text p{
+    font-size: 1.125rem;
+    padding-top: 8px;
+}
