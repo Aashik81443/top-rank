@@ -1,9 +1,9 @@
 .btn{
-    width:400px;
-    border:none;
-    height:54px;
+    width:180px;
+    height:56px;
+    font-size: 22px;
     background-color: var(--blue);
-    color:white;
     border-radius: 4px;
-    text-decoration: none;
+    border:none;
+    color:white;  
   }
