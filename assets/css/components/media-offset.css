@@ -78,3 +78,22 @@
   background-color: var(--blue);
 }
 
+/*Responsive*/
+
+/*For laptop Device*/
+@media screen and (min-width: 1024px) {
+  .media-offset::after,
+.media-offset::before {
+  width: 290px;
+  height: 196px;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+  .media-offset::after,
+  .media-offset::before {
+    width: 250px;
+    height: 166px;
+}
+}
