@@ -1,0 +1,9 @@
+.btn{
+    width:400px;
+    border:none;
+    height:54px;
+    background-color: var(--blue);
+    color:white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
