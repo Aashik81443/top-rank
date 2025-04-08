@@ -24,7 +24,7 @@
                      </figure>
                  </div>
                 <div class="phone-number">
-                    <i class="icon-call" style="font-size: 32px";></i>
+                    <i class="icon-call" ;></i>
                     <span class="number">(978) 330-0758</span>
                 </div>
             </div>

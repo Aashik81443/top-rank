@@ -10,20 +10,26 @@
     color:var(--white); 
 }
 .number{
-    font-size: 29px;
+    font-size: 1.8125rem;
     font-weight: 600;
-    padding-top: 27px;
-    padding-bottom: 27px;
+}
+.phone-number{
+    padding:27px 0;
+}
+/*
+.icon-call{
+    padding-top:1.7188rem;
+    padding-bottom: 1.7188rem;
+    padding-right:1rem;
+}
+    */
+.header-logo{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .icon-call{
-    padding-top:27.5px;
-    padding-bottom: 27.5px;
-    padding-right:16px;
-}
-
-.header-logo{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    font-size: 32px;
+    padding-right: 1rem;
 }
 
