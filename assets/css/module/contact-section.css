@@ -1,0 +1,11 @@
+.block-contact {
+ padding-top: 50px;
+ padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+ .block-contact {
+  padding-top: 100px;
+  padding-bottom: 80px;
+ }
+}
