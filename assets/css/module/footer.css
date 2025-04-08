@@ -12,6 +12,7 @@
 }
 .footer-section a {
     color: var(--white);
+    text-decoration: none;
 }
 
 .footer-section .icon-call-alt{

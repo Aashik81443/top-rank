@@ -1,7 +1,6 @@
 <footer class="footer">
     <div class="footer-section">
         <a href="#"><i class ="icon-call-alt"></i>(978) 330-0758</a>
- 
     </div>
 </footer>
 
