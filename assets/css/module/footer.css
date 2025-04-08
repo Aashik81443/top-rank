@@ -1,38 +1,39 @@
-.footer {
+.site-footer {
     background-color: var(--blue);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: auto;
+    text-align: center;
+    padding: 1rem 0;
 }
 
-.footer-section{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.footer-section a {
+.site-footer .phone-number a {
     color: var(--white);
+    font-size: 1rem;
+    line-height: normal;
+    position: relative;
+    padding-left: 20px;
     text-decoration: none;
+
 }
 
-.footer-section .icon-call-alt{
-    padding-right: 4px;
+.site-footer .phone-number a:hover {
+    text-decoration: underline;
+
 }
+
+.site-footer .phone-number a i {
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+
 
 /*Responsive*/
 
 /*For laptop Device*/
 @media screen and (min-width: 1024px) {
-    .footer-section{
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .footer-section a {
-        color: var(--white);
-        text-decoration: none;
-    }
-    
-    .footer-section .icon-call-alt{
-        padding-right: 4px;
+    .site-footer {
+        padding: 1.25rem 0;
     }
 }

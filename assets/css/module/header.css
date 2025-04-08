@@ -1,51 +1,60 @@
-
-.site-header{
-    background-color:var(--black);
+.site-header {
+    background-color: var(--black);
+    padding: 1rem 0;
 }
 
-a{
-    font-size: 19px;
-    color:var(--white);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.contents{
-    display:flex;
+.site-header .content {
+    display: flex;
     justify-content: space-between;
-    align-items:center;
-    color:var(--white); 
+    align-items: center;
 }
-.number{
-    font-size: 19px;
+
+.site-header .phone-number a {
+    font-size: 1.1875rem;
+    line-height: normal;
+    color: var(--white);
     font-weight: 600;
 }
-.phone-number{
-    padding:27px 0;
+.site-header .phone-number a:hover {
+    text-decoration: underline;
 }
 
-.header-logo{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+.site-header .phone-number a .number {
+    display: none;
 }
 
-.icon-call{
-    font-size: 22px;
-    padding-right: 1rem;
+.site-header .phone-number a i {
+    font-size: 2rem;
+}
+
+
+/*For Tab Device*/
+
+@media screen and (min-width: 768px) {
+    .site-header .phone-number a {
+        font-size: 1.8125rem;
+        position: relative;
+        padding-left: 48px;
+
+    }
+
+    .site-header .phone-number a i {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+    }
+
+    .site-header .phone-number a .number {
+        display: inline-block;
+    }
 }
 
 /*For laptop Device*/
 
 @media screen and (min-width: 1024px) {
-    a{
-        font-size: 29px;
+    .site-header {
+        padding: 1.6875rem 0;
     }
-    .number{
-        font-size: 29px;
-    }
-    .icon-call{
-        font-size: 32px;
-    }
-
-   }
-
+}

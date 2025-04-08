@@ -15,6 +15,10 @@ hr {
  margin: 1rem 0;
 }
 
+a{
+ transition: all 0.3s;
+}
+
 /*typography*/
 
 h1,
