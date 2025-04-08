@@ -13,3 +13,21 @@
 </head>
 
 <body>
+
+    <!--Header Section Starting-->
+    <header class="site-header"> 
+        <div class="container"> 
+            <div class="contents">
+                 <div class="header-logo">
+                     <figure>
+                         <img src="./assets/images/logo.png" alt="Header Logo" width="63" height="40" loading="lazy">
+                     </figure>
+                 </div>
+                <div class="phone-number">
+                    <i class="icon-call" style="font-size: 32px";></i>
+                    <span class="number">(978) 330-0758</span>
+                </div>
+            </div>
+        </div>        
+    </header>
+        <!--Header Section Ending--> 
