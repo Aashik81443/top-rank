@@ -20,12 +20,11 @@
             <div class="contents">
                  <div class="header-logo">
                      <figure>
-                         <img src="./assets/images/logo.png" alt="Header Logo" width="63" height="40" loading="lazy">
+                         <img src="./assets/images/logo.png" alt="Header Logo" width="63px" height="40px" loading="lazy">
                      </figure>
                  </div>
                 <div class="phone-number">
-                    <i class="icon-call" ;></i>
-                    <span class="number">(978) 330-0758</span>
+                    <a href="tel(978)330-0758"><i class="icon-call"></i>(978) 330-0758</a>
                 </div>
             </div>
         </div>        
