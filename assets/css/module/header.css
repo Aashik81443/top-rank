@@ -4,7 +4,7 @@
 }
 
 a{
-    font-size: 29px;
+    font-size: 19px;
     color:var(--white);
     text-decoration: none;
     font-weight: 600;
@@ -17,7 +17,7 @@ a{
     color:var(--white); 
 }
 .number{
-    font-size: 1.8125rem;
+    font-size: 19px;
     font-weight: 600;
 }
 .phone-number{
@@ -30,7 +30,22 @@ a{
 }
 
 .icon-call{
-    font-size: 32px;
+    font-size: 22px;
     padding-right: 1rem;
 }
+
+/*For laptop Device*/
+
+@media screen and (min-width: 1024px) {
+    a{
+        font-size: 29px;
+    }
+    .number{
+        font-size: 29px;
+    }
+    .icon-call{
+        font-size: 32px;
+    }
+
+   }
 
