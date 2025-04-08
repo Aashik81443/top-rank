@@ -3,6 +3,13 @@
     background-color:var(--black);
 }
 
+a{
+    font-size: 29px;
+    color:var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .contents{
     display:flex;
     justify-content: space-between;
@@ -16,13 +23,7 @@
 .phone-number{
     padding:27px 0;
 }
-/*
-.icon-call{
-    padding-top:1.7188rem;
-    padding-bottom: 1.7188rem;
-    padding-right:1rem;
-}
-    */
+
 .header-logo{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
