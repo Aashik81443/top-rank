@@ -1,7 +1,11 @@
-.card-service .content{
+.card-service .content {
     margin-top: 20px;
-    color: var(--white);
+    line-height: 1.75rem;
+    color: rgba(255, 255, 255, 0.8);
 }
-.card-service .content h3{
+
+.card-service .content h3 {
+    color: var(--white);
     margin-bottom: 8px;
+    text-transform: uppercase;
 }

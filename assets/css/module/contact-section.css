@@ -1,11 +1,99 @@
 .block-contact {
- padding-top: 50px;
- padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.block-contact .block-title h2 {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.block-contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.block-contact .row .col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.block-contact .block-contact__media img {
+    width: 100%;
+}
+
+.block-contact .block-contact__form {
+    height: 100%;
+    padding: 24px 16px;
+    background-color: rgba(78, 109, 184, 0.16);
+}
+
+.block-contact .block-contact__form form .form-footer {
+    margin-top: 24px;
+}
+
+.block-contact .block-contact__form form .form-footer .btn {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-raleway);
+}
+
+@media (min-width:992px) {
+    .block-contact {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .block-contact .row.no-gutter {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .block-contact .row.no-gutter .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .block-contact .row .col.col-lg-6 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .block-contact .block-contact__media {
+        height: 100%;
+    }
+
+    .block-contact .block-contact__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .block-contact .block-contact__form {
+        padding: 32px 24px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
- .block-contact {
-  padding-top: 100px;
-  padding-bottom: 80px;
- }
+    .block-contact {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .block-contact .block-contact__form form .form-footer .btn {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .block-contact .block-contact__form {
+        padding: 40px 32px;
+    }
 }
