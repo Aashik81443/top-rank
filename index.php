@@ -17,7 +17,7 @@ include './header.php';
         ?>
     </div>
 </section>
-
+<!--About section starts here-->
 <section class="block-about">
     <div class="container">
         <div class="row">
@@ -42,7 +42,8 @@ include './header.php';
         </div>
     </div>
 </section>
-
+<!--About section ends here-->
+<!--sevice section starts here-->
 <section class="block-services">
     <div class="container">
         <header class="block-title text-white text-center">
@@ -140,7 +141,8 @@ include './header.php';
         </div>
     </div>
 </section>
-
+<!--sevice section ends here-->
+<!--contact us section starts here-->
 <section class="block-contact">
     <div class="container">
         <header class="block-title text-center">
@@ -201,7 +203,7 @@ include './header.php';
 
     </div>
 </section>
-
+<!--contact us section ends here-->
 <?php
 include './footer.php';
 ?>
