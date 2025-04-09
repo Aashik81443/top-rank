@@ -55,7 +55,7 @@ include './header.php';
                     <div class="card-service">
                         <div class="media-offset">
                             <figure>
-                                <img src="./assets/images/about-us.jpg" alt="About Us" width="562.26px" height="393.58px" loading="lazy">
+                                <img src="./assets/images/foundation-repair-services-img.jpg" alt="Foundation Repair" width="412px" height="240px" loading="lazy">
                             </figure>
                         </div>
                         <div class="content">
@@ -69,7 +69,7 @@ include './header.php';
                     <div class="card-service">
                         <div class="media-offset">
                             <figure>
-                                <img src="./assets/images/about-us.jpg" alt="About Us" width="562.26px" height="393.58px" loading="lazy">
+                                <img src="./assets/images/chimney-repair.jpg" alt="Chimney Repair" width="412px" height="240px" loading="lazy">
                             </figure>
                         </div>
                         <div class="content">
@@ -84,12 +84,12 @@ include './header.php';
                     <div class="card-service">
                         <div class="media-offset">
                             <figure>
-                                <img src="./assets/images/about-us.jpg" alt="About Us" width="562.26px" height="393.58px" loading="lazy">
+                                <img src="./assets/images/basement-waterproofing.jpg" alt="Basement Waterproofing" width="412px" height="240px" loading="lazy">
                             </figure>
                         </div>
                         <div class="content">
-                            <h3>Foundation Repair</h3>
-                            <p>Our team provides expert foundation repair services across Massachusetts, ensuring the strength and stability of homes and buildings. We specialize in addressing foundation issues such as cracks, settling, and water damage, using high-quality materials and advanced techniques to restore structural integrity. Whether your foundation requires minor crack repairs or major reinforcement, we offer reliable and long-lasting solutions tailored to your property’s needs. With a strong commitment to excellence and customer satisfaction, Top Rank Masonry and Paving helps homeowners protect their investments and prevent costly future damage.</p>
+                            <h3>Basement Waterproofing</h3>
+                            <p>We specialize in professional basement waterproofing to protect your home from water damage, leaks, and moisture buildup. Our team has served homeowners across Massachusetts, using top-quality materials & proven techniques to ensure a dry, secure, and long-lasting foundation. Whether you're facing cracks, seepage, or flooding, we provide reliable solutions to keep your basement safe and structurally sound. Committed to excellence and customer satisfaction, we help you prevent costly repairs and maintain the integrity of your property. Trust us to keep your basement dry & protected year-round.</p>
                         </div>
                     </div>
                 </div>
@@ -98,12 +98,40 @@ include './header.php';
                     <div class="card-service">
                         <div class="media-offset">
                             <figure>
-                                <img src="./assets/images/about-us.jpg" alt="About Us" width="562.26px" height="393.58px" loading="lazy">
+                                <img src="./assets/images/stoops&steps-services-img.jpg" alt="Stoops & Steps" width="412px" height="240px" loading="lazy">
                             </figure>
                         </div>
                         <div class="content">
-                            <h3>Foundation Repair</h3>
-                            <p>Our team provides expert foundation repair services across Massachusetts, ensuring the strength and stability of homes and buildings. We specialize in addressing foundation issues such as cracks, settling, and water damage, using high-quality materials and advanced techniques to restore structural integrity. Whether your foundation requires minor crack repairs or major reinforcement, we offer reliable and long-lasting solutions tailored to your property’s needs. With a strong commitment to excellence and customer satisfaction, Top Rank Masonry and Paving helps homeowners protect their investments and prevent costly future damage.</p>
+                            <h3>Stoops & Steps</h3>
+                            <p>Enhance your home’s entryway with elegant, custom-designed stoops and steps from Top Rank Masonry. We take pride in crafting beautiful and durable entrances that not only boost curb appeal but also provide safe and convenient access to your home. Using top-quality materials and expert craftsmanship, we design stoops and steps that seamlessly complement your home’s architecture. Let us elevate your home’s entrance with a stylish and long-lasting upgrade.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--item-->
+                <div class="col">
+                    <div class="card-service">
+                        <div class="media-offset">
+                            <figure>
+                                <img src="./assets/images/patios-services-img.jpg" alt="Patios" width="412px" height="240px" loading="lazy">
+                            </figure>
+                        </div>
+                        <div class="content">
+                            <h3>Patios</h3>
+                            <p>Transform your outdoor living space with a stunning custom patio from Top Rank Masonry. We specialize in designing and installing patios that enhance both the beauty and functionality of your home. Whether you want a cozy retreat to unwind or a stylish space to entertain guests, we use top-quality materials & expert craftsmanship to create a patio that lasts. Let us elevate your outdoor experience with a patio built to impress.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--item-->
+                <div class="col">
+                    <div class="card-service">
+                        <div class="media-offset">
+                            <figure>
+                                <img src="./assets/images/walkways-services-img.jpg" alt="Walkways" width="412px" height="240px" loading="lazy">
+                            </figure>
+                        </div>
+                        <div class="content">
+                            <h3>Walkways</h3>
+                            <p>Create a welcoming path around your property with a custom walkway from Top Rank Masonry. Whether you prefer a classic or modern look, we use high-quality materials & expert craftsmanship to ensure a durable and visually stunning result. Let us transform your landscape with a walkway that is as functional as it is beautiful.</p>
                         </div>
                     </div>
                 </div>
